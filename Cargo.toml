@@ -1,0 +1,16 @@
+[package]
+name = "ipcalculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "2.1.0"
+console = { version = "0.15.8", features = ["windows-console-colors"] }
+dialoguer = "0.11.0"
+indicatif = "0.17.8"
+local-ip-address = "0.6.3"
+regex = "1.10.6"
+
+[[bin]]
+name = "ipcalc"
+path = "src/main.rs"
